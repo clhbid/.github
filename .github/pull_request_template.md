@@ -22,6 +22,9 @@ BEFORE POSTING YOUR PULL REQUEST:
 
 <!-- Describe any issues our questions you've yet to address. This is a good place to ask questions of the team on draft PRs. -->
 
+### Deployment Plan
+<!-- What needs to happen to deploy this to production (config updates, new credentials, etc) -->
+
 ### Required Tasks
 
 <!-- A list of tasks that must be done for a pull request to be merged -->
