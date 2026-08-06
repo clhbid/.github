@@ -1,0 +1,22 @@
+name: Enhancement
+description: Request a new feature, improvement, or other non-bug work.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What's happening / what you want
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Anything out of scope
+    validations:
+      required: false
