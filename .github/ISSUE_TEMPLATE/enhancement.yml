@@ -15,6 +15,30 @@ body:
     validations:
       required: true
   - type: textarea
+    id: cost
+    attributes:
+      label: Cost
+      description: |
+        Fill this in only when the change is reasonably expected to alter what we pay: adding a
+        new Azure resource, changing SKU/tier, introducing a third-party service, or increasing
+        ingestion, storage, or egress. Copy or UI changes do not need this.
+
+        Base the estimate on existing telemetry and published retail prices, and link both. Keep
+        the working to 1–3 short paragraphs, then a table with one row per component showing
+        current and estimated new cost, plus a **TOTAL** row. Put assumptions in a footnote.
+        See clhbid/infrastructure#95 for an example.
+      placeholder: |
+        Briefly explain expected volume and pricing sources, with links.
+
+        | Component | Current cost | Estimated new cost[^1] |
+        | --- | --- | --- |
+        | ... | $0 | ~$0.25/month |
+        | **TOTAL** | **$0** | **~$0.25/month** |
+
+        [^1]: Assumes ...
+    validations:
+      required: false
+  - type: textarea
     id: out-of-scope
     attributes:
       label: Anything out of scope
