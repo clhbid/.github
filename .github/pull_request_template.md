@@ -1,48 +1,21 @@
-<!--
-BEFORE POSTING YOUR PULL REQUEST:
-- These comments won't show up when you submit the pull request.
-- Please use the sections below to provide information about the pull request.
-- Be specific: Add as much detail as possible.
-- It's ok to use DRAFT PR's. We encourage you to share early and often. Use Outstanding Issues if needed.
--->
+## Description
 
-# Pull Request Description
+- 1-2 bullets: what and why
 
-<!-- A clear and concise description of what the pull request is -->
+## Changes
 
-### Changes
+- 2-5 bullets max: user-visible or behavior changes
 
-<!--  A list of the changes that have broken / changed previous functionality (Flag MAJOR changes) -->
+## How to Test
 
-### Screenshots
+1. 2-4 steps max
+2. Include the single most important edge case
 
-<!-- Include a screenshot of the change, or indicate if it's not applicable -->
+## Deployment Notes
 
-### Outstanding Issues
-
-<!-- Describe any issues our questions you've yet to address. This is a good place to ask questions of the team on draft PRs. -->
-
-### Deployment Plan
-<!-- What needs to happen to deploy this to production (config updates, new credentials, etc) -->
-
-### Required Tasks
-
-<!-- A list of tasks that must be done for a pull request to be merged -->
-
-- [ ] I have reviewed the Netlify Deploy Preview
-- [ ] I have updated tests and documentation if applicable
-- [ ] I have addressed Outstanding Issues
-- [ ] I have updated the Pull Request title to include the issue number ("XYZ pull request description")
+1. OPTIONAL: Only include if there are special deployment steps or risks to call out
+2. Flag any tasks that must be done before or after merging (e.g., "Add env var X before merging", "Run data migration Y after merging", "Add a variable to 1Password")
 
 ## Related Issues
 
-<!--
-  Link to the issue that is fixed by this PR (if there is one)
-  e.g. Fixes #1234
-
-  Link to an issue that is partially addressed by this PR (if there are any)
-  e.g. Addresses #1234
-
-  Link to related issues (if there are any)
-  e.g. Related to #1234
--->
+Closes #<issue_number>
