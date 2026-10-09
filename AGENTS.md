@@ -59,7 +59,7 @@ example `./scripts/install-agent-skills.sh copilot`, or `'*'` for every agent it
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `issue-tracker` | Issues via `gh`, the `Status` field and how to set it, the board query recipes, triage roles, cycles, labels, the commit convention, and how to decompose work |
 | `afk-loop`      | Dispatching work to Copilot, reviewing what comes back, and handling a run that goes wrong                                                                     |
-| `open-pr`       | Opening and updating a pull request                                                                                                                             |
+| `open-pr`       | Opening, pushing and updating a pull request. The `pr` skill writes the body                                                                                    |
 
 **If you are reading this without those skills, you have everything you need.** A Copilot coding
 agent runs in a container that has not installed them: the commands above, and **How a run ends**,
