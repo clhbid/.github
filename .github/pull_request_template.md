@@ -1,21 +1,20 @@
-## Description
+## Summary
 
-- 1-2 bullets: what and why
+<diagram, diff-sketch, or tree>
 
-## Changes
+## Evidence
 
-- 2-5 bullets max: user-visible or behavior changes
+- **Before:** <screenshot/output/failing test run>
+  **After:** <screenshot/output/passing test run>
 
-## How to Test
+## Merge Danger
 
-1. 2-4 steps max
-2. Include the single most important edge case
+**Door:** <one-way or two-way>
 
-## Deployment Notes
+<optional: description, including any task to do before or after merging>
 
-1. OPTIONAL: Only include if there are special deployment steps or risks to call out
-2. Flag any tasks that must be done before or after merging (e.g., "Add env var X before merging", "Run data migration Y after merging", "Add a variable to 1Password")
+**Blast Radius:** <one-word description>
 
-## Related Issues
+<optional: potential ramifications of merge>
 
 Closes #<issue_number>
