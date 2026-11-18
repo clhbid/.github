@@ -53,7 +53,7 @@ checkout instead:
 ```
 
 It installs the skills globally for Claude Code. Pass an agent name to install them elsewhere, for
-example `./scripts/install-agent-skills.sh copilot`, or `'*'` for every agent it detects.
+example `./scripts/install-agent-skills.sh github-copilot`, or `'*'` for every agent it detects.
 
 | Skill           | What it covers                                                                                                                                                 |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -61,9 +61,8 @@ example `./scripts/install-agent-skills.sh copilot`, or `'*'` for every agent it
 | `afk-loop`      | Dispatching work to Copilot, reviewing what comes back, and handling a run that goes wrong                                                                     |
 | `open-pr`       | Opening, pushing and updating a pull request. The `pr` skill writes the body                                                                                    |
 
-**If you are reading this without those skills, you have everything you need.** A Copilot coding
-agent runs in a container that has not installed them: the commands above, and **How a run ends**,
-are the whole contract. Anything else is reference material for a person or a session with the
-skills to hand — never a prerequisite for finishing an issue. If you find you needed something
-that isn't here, say so on the pull request, so it can be added to this file rather than restored
-as a copy of the docs.
+**If you are reading this without those skills, you have everything you need.** The commands above,
+and **How a run ends**, are the whole contract. Anything else is reference material for a person or
+a session with the skills to hand — never a prerequisite for finishing an issue. If you find you
+needed something that isn't here, say so on the pull request, so it can be added to this file rather
+than restored as a copy of the docs.
